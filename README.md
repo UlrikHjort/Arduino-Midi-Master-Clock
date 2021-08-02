@@ -4,7 +4,7 @@ Midi master clock for Arduino.
 Connect midi OUT from the UNO to the midi IN on the slave chain and specify the device and the tempo (in bpm) by the potentiometer. Read out the actual value on the OLED display.
 
 ## Wiring:
-The MIDI shield is mounted on breadboard since not all pins are used by the shield and free pins to mount the OLED is needed. 
+The MIDI shield is mounted on breadboard since not all pins are used by the shield and free pins to mount the OLED are needed. 
 Pins between Shield and UNO is mapped "one to one" as stated below.
 
 
