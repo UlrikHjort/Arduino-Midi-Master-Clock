@@ -71,7 +71,7 @@ void send_sync() {
   uint32_t tempo = 1000.0/(bpm/60.0);
   
   uint32_t interval_tempo = tempo/24.0; // 24 ppqn 
-  uint32_t interval_read = 1000;        
+  uint32_t interval_read = 1000;  // ms      
   
   uint32_t prev_millis_tempo = 0;
   uint32_t prev_millis_read = 0;
