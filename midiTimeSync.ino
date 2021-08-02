@@ -50,7 +50,7 @@ void print_tempo(uint32_t bpm) {
  ********************************************/
 void setup() {
   
- Serial.begin(31250);
+ Serial.begin(31250); // MIDI baud rate
 
   if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR)) { 
     for(;;); 
