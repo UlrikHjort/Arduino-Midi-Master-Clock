@@ -1,7 +1,7 @@
 # Arduino Midi Master Clock
 
 Midi master clock for Arduino. 
-Connect midi OUT from the UNO to the midi IN on the slave chain and specify the device and the tempo (in bpm) by the potentiometer. Read out the actual value on the OLED display.
+Connect midi OUT from the UNO to the midi IN on the slave chain and specify the device and the tempo (in bpm) by the potentiometer. Read out the BPM value on the OLED display.
 
 ## Hardware:
 * Arduino UNO
